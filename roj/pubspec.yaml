@@ -1,0 +1,48 @@
+name: roj
+description: A new Flutter project for learning Kurdish.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Navigation
+  go_router: ^13.1.0
+  
+  # UI & Design
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  lottie: ^3.1.0
+  
+  # Storage (Real Persistence)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  
+  # Audio
+  audioplayers: ^5.2.1
+  flutter_tts: ^3.8.3
+  
+  # AI (Real Intelligence)
+  google_generative_ai: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/audio/
+    - assets/data/
